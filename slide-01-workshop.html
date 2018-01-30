@@ -22,11 +22,16 @@
   </script>
 </head>
 <body>
-<section data-markdown="slide-01-workshop.md"
-         data-separator="<!-- section -->"
-         data-separator-vertical="<!-- slide -->"
-         data-charset="utf-8">
-</section>
+
+<div class="reveal">
+  <div class="slides">
+    <section data-markdown="slide-01-workshop.md"
+             data-separator="<!-- section -->"
+             data-separator-vertical="<!-- slide -->"
+             data-charset="utf-8">
+    </section>
+  </div>
+</div>
 
 <script src="reveal.js-3.6.0/lib/js/head.min.js"></script>
 <script src="reveal.js-3.6.0/js/reveal.js"></script>
@@ -45,7 +50,9 @@
           hljs.initHighlightingOnLoad();
         }
       }
-    ]
+    ],
+    history: true,
+    slideNumber: true,
   });
 </script>
 </body>
