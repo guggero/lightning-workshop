@@ -1,2 +1,6 @@
-# lightning-workshop
-Slides, links and tutorials used for the workshop on the Lightning Network
+# Workshop: The Lightning Network
+
+## Slides
+
+[Link to the slides](slide-01-workshop.html)
+
