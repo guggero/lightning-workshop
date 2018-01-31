@@ -31,7 +31,7 @@ Once you have installed the tools mentioned above continue here:
 * The binaries for `lnd` can be downloaded here (built on commit [b4e280e](https://github.com/lightningnetwork/lnd/commit/b4e280eb152cbd5f2e9d7e116976316fd95be1c7) on 2018-01-30):
   * Linux: [lnd binary for linux/amd64](https://raw.githubusercontent.com/guggero/lightning-workshop/master/lnd-binaries/linux-amd64/lnd)
   * Mac: [lnd binary for darwin/amd64](https://raw.githubusercontent.com/guggero/lightning-workshop/master/lnd-binaries/darwin-amd64/lnd)
-  * Windows: [lnd binary for windows/amd64](https://raw.githubusercontent.com/guggero/lightning-workshop/master/lnd-binaries/windows-amd64/lnd)
+  * Windows: [lnd binary for windows/amd64](https://raw.githubusercontent.com/guggero/lightning-workshop/master/lnd-binaries/windows-amd64/lnd.exe)
 * Start the GUI with `npm run dev`
 * Go to your wallet and display your wallet's address (should start with 2... for Testnet)
 * Go to [testnet.manu.backend.hamburg/faucet](https://testnet.manu.backend.hamburg/faucet) and send yourself some Testnet Bitcoins
