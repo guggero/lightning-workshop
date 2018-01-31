@@ -76,7 +76,7 @@ docker exec -ti lnd lncli help
 To get a wallet address, run the following command:
 
 ```bash
-docker exec -ti lnd lncli getinfo
+docker exec -ti lnd lncli newaddress p2wpkh
 ```
 
 This might take a while if the wallet is not yet synced to the chain. But finally an address starting with 2... should be printed.
