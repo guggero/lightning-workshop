@@ -190,3 +190,13 @@ We support you through the whole IT project
  * Approach merchants
  * Pay employees through Lightning
  <!-- .slide: class="master05" -->
+ 
+
+<!-- slide -->
+## Resources
+ * Slides: [gugger.guru/lightning-workshop](https://gugger.guru/lightning-workshop)
+ * Puzzle Blog: [puzzle.ch/de/blog](https://www.puzzle.ch/de/blog)
+ * Lightning Network: [three part video on youtube](https://www.youtube.com/watch?v=XFUYvLW-0oE)
+ * testnet node: [lightning-test.puzzle.ch](https://lightning-test.puzzle.ch)
+ * Meetup: Stay tuned for next events
+<!-- .slide: class="master05" -->

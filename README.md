@@ -2,7 +2,9 @@
 
 Slides, links and tutorials used for the workshop on the Lightning Network.
 
-[The slides can be found here.](slide-01-workshop.html)
+[The slides for the hands-on workshopcan be found here.](slide-01-workshop.html)
+
+[The slides for the talk at the Impact Hub can be found here.](slide-02-impact-hub.html)
 
 
 # Task 1: Install Lightning Network wallet
