@@ -91,7 +91,8 @@ Sure, because downloading 5.3 GB every 10 minutes is no problem!
 ### The Lightning Network
  - Layer 2 on top of Bitcoin
  - Routing payments like TCP/IP
-   ![network](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/17_node_mesh_network.png/300px-17_node_mesh_network.png)
+
+![network](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/17_node_mesh_network.png/300px-17_node_mesh_network.png)
 <!-- .slide: class="master05" -->
 
 

@@ -227,6 +227,10 @@ body {
   text-align: left;
 }
 
+.reveal small.very-small {
+  font-size: 0.4em;
+}
+
 /*********************************************
  * LINKS
  *********************************************/
@@ -436,4 +440,12 @@ body {
 
 .master05 h1, .master05 h2, .master05 h3, .master05 h4, .master05 h5, .master05 h6 {
   color: white !important;
+}
+
+.master-black h1, .master-black h2, .master-black h3, .master-black h4, .master-black h5, .master-black h6 {
+  color: black !important;
+}
+
+.master-blue h1, .master-blue h2, .master-blue h3, .master-blue h4, .master-blue h5, .master-blue h6 {
+  color: #3B7BBE !important;
 }
