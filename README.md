@@ -2,9 +2,11 @@
 
 Slides, links and tutorials used for the workshop on the Lightning Network.
 
-[The slides for the hands-on workshopcan be found here.](slide-01-workshop.html)
 
-[The slides for the talk at the Impact Hub can be found here.](slide-02-impact-hub.html)
+Links to slides:
+* [The Lightning Network: Hands-on workshop](slide-01-workshop.html)
+* [Smart Contracts/The Lightning Network: Talk at the Impact Hub on 2018-02-07](slide-02-impact-hub.html)
+* [Trading Basics: Talk at the Impact Hub on 2018-02-07 by Jan Gobeli](slides_trading_basics_jan_gobeli.pptx)
 
 
 # Task 1: Install Lightning Network wallet
