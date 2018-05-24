@@ -88,7 +88,7 @@ lncli --lnddir=/tmp/lnd help
 To get a wallet address, run the following command:
 
 ```bash
-lncli --lnddir=/tmp/lnd newaddress p2wpkh
+lncli --lnddir=/tmp/lnd newaddress np2wkh
 ```
 
 This might take a while if the wallet is not yet synced to the chain. But finally an address starting with 2... should be printed.
@@ -141,7 +141,7 @@ docker exec -ti lnd lncli help
 To get a wallet address, run the following command:
 
 ```bash
-docker exec -ti lnd lncli newaddress p2wpkh
+docker exec -ti lnd lncli newaddress np2wkh
 ```
 
 This might take a while if the wallet is not yet synced to the chain. But finally an address starting with 2... should be printed.
