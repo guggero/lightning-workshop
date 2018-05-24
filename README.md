@@ -93,7 +93,7 @@ lncli --lnddir=/tmp/lnd newaddress p2wpkh
 
 This might take a while if the wallet is not yet synced to the chain. But finally an address starting with 2... should be printed.
 
-## Option 3 (advanced, CLI): Docker container
+## Option 3b (advanced, CLI): Docker container
 
 Create a directory where the data for the `lnd` process will be stored. For the example we will assume that the directory is `/tmp/lnd`.
 
