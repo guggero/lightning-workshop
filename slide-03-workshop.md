@@ -23,9 +23,9 @@ Notes at: https://beta.etherpad.org/p/lightning-workshop
 
 
 <!-- section -->
-### The current state of Bitcoin (2018-01-30)
+### The current state of Bitcoin (2018-05-10)
  - SegWit is enabled
-   ![SegWit transactions percentage](img/slide-01/segwit-tx-percentage.png)
+   ![SegWit transactions percentage](img/slide-03/segwit-tx-percentage.jpg)
    <small>from: segwit.party/charts/</small>
 <!-- .slide: class="master03" -->
 
