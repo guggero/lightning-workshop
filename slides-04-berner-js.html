@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-  <title>Workshop: The Lightning Network</title>
+  <title>Bitcoin Cryptography with JavaScript</title>
 
   <link rel="stylesheet" href="reveal.js-3.6.0/css/reveal.css">
   <link rel="stylesheet" href="reveal.js-3.6.0/css/theme/puzzle.css">
@@ -25,7 +25,7 @@
 
 <div class="reveal">
   <div class="slides">
-    <section data-markdown="slide-03-workshop.md"
+    <section data-markdown="slides-04-berner-js.md"
              data-separator="<!-- section -->"
              data-separator-vertical="<!-- slide -->"
              data-charset="utf-8">
@@ -49,7 +49,9 @@
         src: 'reveal.js-3.6.0/plugin/highlight/highlight.js', async: true, callback: function () {
           hljs.initHighlightingOnLoad();
         }
-      }
+      },
+      // add THIS dependency for tagcloud plugin
+      { src: 'reveal.js-3.6.0/plugin/tagcloud/tagcloud.js', async: true }
     ],
     history: true,
     slideNumber: true,

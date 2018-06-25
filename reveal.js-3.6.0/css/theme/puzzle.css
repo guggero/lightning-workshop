@@ -449,3 +449,9 @@ body {
 .master-blue h1, .master-blue h2, .master-blue h3, .master-blue h4, .master-blue h5, .master-blue h6 {
   color: #3B7BBE !important;
 }
+
+span.clouditem {
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+  line-height: 90%;
+}

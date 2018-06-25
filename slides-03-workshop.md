@@ -4,33 +4,45 @@
 
 <!-- section -->
 ### Workshop: The Lightning Network
-Oliver Gugger ([@gugol](https://twitter.com/gugol), [github.com/guggero](https://github.com/guggero)) 
+Oliver Gugger
 
-Part of the Lightning Network team at<br/>Puzzle ITC
+[@gugol](https://twitter.com/gugol),<br/>
+[github.com/guggero](https://github.com/guggero)
+
+Part of the Lightning Network team at<br/>
+Puzzle ITC, contributor to lnd
+
+<!-- .slide: class="master02" -->
+
+<!-- slide -->
+### Workshop: The Lightning Network
+
+Notes at: https://beta.etherpad.org/p/lightning-workshop
+
 <!-- .slide: class="master02" -->
 
 
-
 <!-- section -->
-### The current state of Bitcoin (2018-01-30)
+### The current state of Bitcoin (2018-05-10)
  - SegWit is enabled
-   ![SegWit transactions percentage](img/slide-01/segwit-tx-percentage.png)
+   ![SegWit transactions percentage](img/slides-03/segwit-tx-percentage.jpg)
    <small>from: segwit.party/charts/</small>
 <!-- .slide: class="master03" -->
 
 
 <!-- slide -->
-### The current state of Bitcoin (2018-01-30)
+### The current state of Bitcoin (2018-05-24)
  - Mempool is emptying
-   ![Mempool transaction count](img/slide-01/mempool-tx-count.png)
+   ![Mempool transaction count](img/slides-03/mempool-tx-count.png)
+   <!-- .element width="75%" -->
    <small>from: blockchain.info/charts/mempool-count</small>
 <!-- .slide: class="master04" -->
 
 
 <!-- slide -->
-### The current state of Bitcoin (2018-01-30)
- - Fees are dropping
-   ![Mempool transaction count](img/slide-01/mempool-tx-fees.png)
+### The current state of Bitcoin (2018-05-24)
+ - Fees dropped massively
+   ![Mempool transaction count](img/slides-03/mempool-tx-fees.png)
    <small>from: dedi.jochen-hoenicke.de/queue</small>
 <!-- .slide: class="master05" -->
 
@@ -39,7 +51,7 @@ Part of the Lightning Network team at<br/>Puzzle ITC
 <!-- section -->
 ### Problem?
  - When demand is high, the fees fluctuate even more than price <br/>
-   ![SegWit transactions percentage](img/slide-01/mempool-tx-fees-december-17.png)
+   ![SegWit transactions percentage](img/slides-01/mempool-tx-fees-december-17.png)
    <!-- .element width="75%" -->
    <small>from: dedi.jochen-hoenicke.de/queue</small>
 <!-- .slide: class="master03" -->
@@ -119,39 +131,39 @@ Technologies used:
 
 <!-- slide -->
 ### How it works
-![Funding Transaction](img/slide-01/lightning-channels-01-funding-tx.png)
+![Funding Transaction](img/slides-01/lightning-channels-01-funding-tx.png)
 <small>from: https://www.youtube.com/watch?v=7tHD9Gj9UNg</small>
 <!-- .slide: class="master02" -->
 
 
 <!-- slide -->
 ### How it works
-![Bi-Directional Channels](img/slide-01/lightning-channels-02-bi-directional.png)
+![Bi-Directional Channels](img/slides-01/lightning-channels-02-bi-directional.png)
 <small>from: https://www.youtube.com/watch?v=7tHD9Gj9UNg</small>
 <!-- .slide: class="master03" -->
 
 
 <!-- slide -->
 ### How it works
-![Second update](img/slide-01/lightning-channels-03-second-update.png)
+![Second update](img/slides-01/lightning-channels-03-second-update.png)
 <small>from: https://www.youtube.com/watch?v=7tHD9Gj9UNg</small>
 <!-- .slide: class="master04" -->
 
 
 <!-- slide -->
 ### How it works
-![Closing a channel](img/slide-01/lightning-channels-04-channel-closing.png)
+![Closing a channel](img/slides-01/lightning-channels-04-channel-closing.png)
 <small>from: https://www.youtube.com/watch?v=7tHD9Gj9UNg</small>
 <!-- .slide: class="master05" -->
 
 
 <!-- slide -->
 ### How it works
-![Multi hop](img/slide-01/lightning-channels-05-multi-hop.png)
+![Multi hop](img/slides-01/lightning-channels-05-multi-hop.png)
 <!-- .element: width="75%" -->
-![Multi hop tx](img/slide-01/lightning-channels-06-multi-hop-tx.png)
+![Multi hop tx](img/slides-01/lightning-channels-06-multi-hop-tx.png)
 <!-- .element: width="49%" -->
-![Multi hop tx](img/slide-01/lightning-channels-07-multi-hop-tx2.png)
+![Multi hop tx](img/slides-01/lightning-channels-07-multi-hop-tx2.png)
 <!-- .element: width="49%" -->
 <small>from: https://www.youtube.com/watch?v=k-bXIZOMNyA</small>
 <!-- .slide: class="master01" -->
@@ -167,20 +179,20 @@ Technologies used:
 
 <!-- section -->
 ### When will it be ready?
-![mainnet on 2018-01-30](img/slide-01/lightning-channels-08-mainnet.png)
+![mainnet on 2018-01-30](img/slides-01/lightning-channels-08-mainnet.png)
 <small>from: https://lnmainnet.gaben.win/</small>
 <!-- .slide: class="master04" -->
 
 
 <!-- slide -->
 ### How will we use it?
-![single-funded channel](img/slide-01/lightning-channels-09-single-funded-channel.png)
+![single-funded channel](img/slides-01/lightning-channels-09-single-funded-channel.png)
 <!-- .slide: class="master05" -->
 
 
 <!-- slide -->
 ### How will we use it?
-![dual-funded channel](img/slide-01/lightning-channels-10-dual-funded-channel.png)
+![dual-funded channel](img/slides-01/lightning-channels-10-dual-funded-channel.png)
 <!-- .slide: class="master01" -->
 
 

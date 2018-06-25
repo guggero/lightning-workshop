@@ -1,0 +1,15 @@
+{
+  "name": "lightning-workshop",
+  "version": "1.0.0",
+  "description": "Slides for my workshops and talks about Bitcoin and the Lightning Network",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guggero/lightning-workshop.git"
+  },
+  "author": "Oliver Gugger <gugger@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guggero/lightning-workshop/issues"
+  },
+  "homepage": "https://gugger.guru/lightning-workshop/"
+}

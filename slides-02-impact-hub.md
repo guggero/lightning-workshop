@@ -29,39 +29,39 @@ investment advice or strategy. Do your own research! Vested interest: Author own
 one team &ndash; one mission
 ## Changing IT for the better
 <br/><br/><br/><br/><br/><br/><br/>
-<!-- .slide: data-background="img/slide-02/01-puzzle-members.png" class="master-blue" -->
+<!-- .slide: data-background="img/slides-02/01-puzzle-members.png" class="master-blue" -->
 
 
 <!-- slide -->
-<!-- .slide: data-background="img/slide-02/02-puzzle-powerhouse.png" -->
+<!-- .slide: data-background="img/slides-02/02-puzzle-powerhouse.png" -->
 
 
 <!-- slide -->
 # Puzzle Vision 2020
 <div style="width: 33%; float: left">
-  ![plan build run](img/slide-02/03-puzzle-vision-plan-build-run.png)
+  ![plan build run](img/slides-02/03-puzzle-vision-plan-build-run.png)
   <small>We cover the whole <b>Life Cycle</b> of business applications</small>
 </div>
 <div style="width: 33%; float: left">
-  ![open source](img/slide-02/03-puzzle-vision-open-source.png)
+  ![open source](img/slides-02/03-puzzle-vision-open-source.png)
   <small>We are <b><i>the</i></b> partner for Open Source solutions</small>
 </div>
 <div style="width: 33%; float: left">
-  ![best employer](img/slide-02/03-puzzle-vision-best-employer.png)
+  ![best employer](img/slides-02/03-puzzle-vision-best-employer.png)
   <small>We belong to the best <b>employers</b> in Switzerland</small>
 </div>
 <!-- .slide: class="master02" -->
 
 
 <!-- slide -->
-![plan build run](img/slide-02/04-puzzle-plan-build-run.png)
+![plan build run](img/slides-02/04-puzzle-plan-build-run.png)
 # Full Service Provider
 We support you through the whole IT project
 <!-- .slide: class="master02" -->
 
 
 <!-- slide -->
-<!-- .slide: data-background="img/slide-02/05-puzzle-community.png" -->
+<!-- .slide: data-background="img/slides-02/05-puzzle-community.png" -->
 
 
 <!-- slide -->
@@ -114,7 +114,7 @@ We support you through the whole IT project
    * Dapps
 </div>
 <div style="width: 50%; float: left;">
- ![solidity](img/slide-02/06-ethereum-solidity.png)
+ ![solidity](img/slides-02/06-ethereum-solidity.png)
 </div>
 <!-- .slide: class="master04" -->
 
@@ -138,7 +138,7 @@ We support you through the whole IT project
  * Time locks
  * Hash locks
 
-![solidity](img/slide-02/07-bitcoin-script.png)
+![solidity](img/slides-02/07-bitcoin-script.png)
 <!-- .slide: class="master01" -->
 
 
@@ -175,7 +175,7 @@ We support you through the whole IT project
 
 ![network](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/17_node_mesh_network.png/300px-17_node_mesh_network.png)
 <!-- .element width="30%" -->
-![transactions](img/slide-01/lightning-channels-04-channel-closing.png)
+![transactions](img/slides-01/lightning-channels-04-channel-closing.png)
 <!-- .element width="50%" -->
 
  * Hands-on workshop repeated soon

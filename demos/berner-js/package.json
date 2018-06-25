@@ -1,0 +1,33 @@
+{
+  "name": "kafi-11",
+  "version": "0.0.1",
+  "main": "browserify.js",
+  "author": "Oliver Gugger <gugger@puzzle.ch>",
+  "license": "UNLICENCED",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babelify": "^8.0.0",
+    "bigi": "^1.4.0",
+    "bip32-utils": "^0.10.0",
+    "bitcoin-ops": "^1.3.0",
+    "bitcoinjs-lib": "^3.1.1",
+    "browserify": "^14.5.0",
+    "bs58check": "^2.1.0",
+    "create-hash": "^1.1.0",
+    "create-hmac": "^1.1.3",
+    "crypto-js": "^3.1.9-1",
+    "ecurve": "^1.0.0",
+    "js-sha3": "^0.6.1",
+    "merkle-lib": "^2.0.10",
+    "pbkdf2": "^3.0.13",
+    "pushdata-bitcoin": "^1.0.1",
+    "randombytes": "^2.0.1",
+    "safe-buffer": "^5.0.1",
+    "typeforce": "^1.11.3",
+    "varuint-bitcoin": "^1.0.4"
+  },
+  "scripts": {
+    "browserify": "browserify -o demo.js browserify.js --standalone demo"
+  }
+}

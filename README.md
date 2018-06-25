@@ -4,8 +4,8 @@ Slides, links and tutorials used for the workshop on the Lightning Network.
 
 
 Links to slides:
-* [The Lightning Network: Hands-on workshop](slide-03-workshop.html)
-* [Smart Contracts/The Lightning Network: Talk at the Impact Hub on 2018-02-07](slide-02-impact-hub.html)
+* [The Lightning Network: Hands-on workshop](slides-03-workshop.html)
+* [Smart Contracts/The Lightning Network: Talk at the Impact Hub on 2018-02-07](slides-02-impact-hub.html)
 * [Trading Basics: Talk at the Impact Hub on 2018-02-07 by Jan Gobeli](slides_trading_basics_jan_gobeli.pptx)
 
 
