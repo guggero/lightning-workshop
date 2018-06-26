@@ -5,10 +5,18 @@
 
   <!-- fonts -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400,700">
+  <link rel="stylesheet" href="highlightjs.css" type="text/css">
 
   <script src="demo.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
 
   <title>Bitcoin Cryptography Demo</title>
+
+  <style>
+    html {
+      font-family: "Raleway", sans-serif;
+    }
+  </style>
 </head>
 <body>
 All libraries are exported to the window scope.<br/>
@@ -17,52 +25,66 @@ Copy/paste the following code examples into the browser console:
 <br/><br/>
 
 <h1>SHA256</h1>
-<pre>
+<pre><code class="javascript">
   // create hash for the string 'BernerJS'
   var msg = Buffer.from('BernerJS');
   var msgHash = sha256(msg);
-  console.log(msgHash.toString('hex'));
-</pre>
+  console.log('Hash of \'BernerJS\': ' + msgHash.toString('hex'));
+</code></pre>
 
 <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 <h1>ECC</h1>
-<pre>
+<pre><code class="javascript">
   // generate random private key of size 256bit
   var privKeyBuf = randomBytes(32);
+  console.log('Random private key: ' + privKeyBuf.toString('hex'));
 
   // construct a key pair from private key
-  var keyPair = ECPair.fromPrivateKey(privKeyBuf);
+  var keyPair = new ECPair(BigInteger.fromBuffer(privKeyBuf));
 
   // public key
-  console.log(keyPair.getPublicKeyBuffer().toString('hex'));
+  var pubKeyBuf = keyPair.getPublicKeyBuffer();
+  console.log('Public key: ' + pubKeyBuf.toString('hex'));
+
+  // hash twice
+  var pubKeyHash = ripemd160(sha256(pubKeyBuf));
+  console.log('Public key hash: ' + pubKeyHash.toString('hex'));
+
+  // format for
+  var addr = address.toBase58Check(pubKeyHash, 0);
+  console.log('Formatted public key hash: ' + addr);
 
   // bitcoin address
-  console.log(keyPair.getAddress());
-</pre>
+  console.log('Address function: ' + keyPair.getAddress());
+</code></pre>
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
 
 <h1>ECDSA</h1>
-<pre>
+<pre><code class="javascript">
   // Generate random private key
   var keyPair = ECPair.fromWIF('KyHzTjYc3wwAr5UkYrbUac1gGsDKwbfNkPjQRNhrDcw85w1gfBzu');
 
   // private key
-  console.log(keyPair.d.toString(16));
+  console.log('Private key: ' + keyPair.d.toString(16));
 
   // public key
-  console.log(keyPair.getPublicKeyBuffer().toString('hex'));
+  console.log('Public key: ' + keyPair.getPublicKeyBuffer().toString('hex'));
 
   // sign a message hash
-  console.log(msgHash.toString('hex'));
+  console.log('Signing message with hash: ' + msgHash.toString('hex'));
   var signature = keyPair.sign(msgHash);
-  console.log(signature.toDER().toString('hex'));
+  console.log('Signature: ' + signature.toDER().toString('hex'));
 
   // check signature
   var signatureBuffer = Buffer.from('304502210091b88ea00e0ae37b500c6cb9232de4a1d64baf9a2d804ec09670d51f1092fbc602204385cf273421ec0c45180bc74576cc0611c5ec9ceff77f19b374ae60eee25e37', 'hex');
   var verifySignature = ECSignature.fromDER(signatureBuffer);
-  var verifyHash = Buffer.from('26d67cb1841abd904235d87630b62bb29b4fc350b34407eef2beb64f7fa0ffcd', 'hex');
+  var verifyHash = sha256(Buffer.from('BernerJS'));
+  var verifyPubKey = Buffer.from('02322879087ee64ca3016f074398d8a935bc88c8485fa2c3a55f7782b46ca10f75', 'hex');
+  var verifyKeyPair = ECPair.fromPublicKeyBuffer(verifyPubKey);
 
-  console.log(keyPair.verify(verifyHash, verifySignature));
-</pre>
+  console.log('Verification result: ' + verifyKeyPair.verify(verifyHash, verifySignature));
+</code></pre>
 </body>
 </html>

@@ -65,7 +65,31 @@ Oliver Gugger<br/><br/>
 <!-- slide -->
 ### Demo: Libraries used
 <a href="demos/berner-js/demo.html">Demo</a><br/>
- * WebCryptoAPI 
- * CryptoJS
- * bitcoinjs-lib
+ * Web Crypto API (browser) 
+ * bitcoinjs-lib ([github.com/bitcoinjs/bitcoinjs-lib](https://github.com/bitcoinjs/bitcoinjs-lib))
 <!-- .slide: class="master02" -->
+
+<!-- slide -->
+<img src="img/slides-04/bitcoin-crypto.png">
+<!-- .slide: class="master03" -->
+
+<!-- slide -->
+### Security concerns
+ * 2<sup>256</sup> ≃ 10<sup>77</sup> addresses<br/>(universe has ~10<sup>80</sup> atoms)
+ * Bitcoin Mining: ~76bit in 10 minutes
+ * Use secure "randomness"
+ * Be very careful with browser RNGs!
+<!-- .slide: class="master03" -->
+
+<!-- slide -->
+### Further topics
+ * Hierarchical Deterministic (HD) wallets
+ * Merkle Trees
+ * HMAC
+ * PBKDF2
+<!-- .slide: class="master04" -->
+
+<!-- slide -->
+### Thank you!
+#### Questions?
+<!-- .slide: class="master05" -->

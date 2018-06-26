@@ -11,18 +11,17 @@ module.exports = {
   Buffer: require('safe-buffer').Buffer,
   fastRoot: require('merkle-lib/fastRoot'),
   bs58check: require('bs58check'),
-  pbkdf2: require('pbkdf2'),
-  sha3: require('js-sha3'),
-  CryptoJS: require('crypto-js'),
-  randomBytes: require('randombytes')
+  randomBytes: require('randombytes'),
+  hljs: require('highlight.js')
 };
 
-window.CryptoJS = module.exports.CryptoJS;
-window.pbkdf2Sync = module.exports.pbkdf2.pbkdf2Sync;
 window.ECPair = module.exports.ECPair;
 window.ECSignature = module.exports.ECSignature;
 window.Buffer = module.exports.Buffer;
+window.BigInteger = module.exports.BigInteger;
 window.sha256 = module.exports.crypto.sha256;
 window.ripemd160 = module.exports.crypto.ripemd160;
 window.randomBytes = module.exports.randomBytes;
-
+window.base58check = module.exports.bs58check;
+window.address = module.exports.address;
+window.hljs = module.exports.hljs;
