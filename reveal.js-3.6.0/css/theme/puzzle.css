@@ -455,3 +455,11 @@ span.clouditem {
   padding-right: 0.3em;
   line-height: 90%;
 }
+
+li pre code.hljs {
+  display: inline;
+}
+
+.reveal li pre {
+  box-shadow: none;
+}

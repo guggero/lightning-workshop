@@ -8,7 +8,7 @@ Oliver Gugger<br/><br/>
 <small>Full Stack Engineer at Puzzle ITC<br/>
 <img src="img/github-logo.png" width="22" style="margin-top:5px"> github.com/guggero<br/>
 <img src="img/twitter-logo.png" width="28" style="margin-top:5px"> @gugol <br/>
-slides: gugger.guru/lightning-workshop/
+slides: https://gugger.guru
 </small>
 <!-- .slide: class="master02" -->
 
