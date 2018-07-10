@@ -45,6 +45,8 @@ slides: https://gugger.guru
 <pre><code>0x30: LY4BqWX1mVCfPDaPe83tMvRCSy3UjnKR5u</code></pre>
 <pre><code>0x1e: DHyL7Z9pzErtfR4qCa49dfX37tQVxoLq6g</code></pre>
 <pre><code>0x6f: mtMBsMJAVrPruXMrBZ2xupZm6kGuVu6TSZ</code></pre>
+
+* Future: bech32
 <!-- .slide: class="master05" -->
 
 <!-- slide -->
@@ -56,12 +58,23 @@ slides: https://gugger.guru
 <img src="img/slides-05/loose-wallet.png" width="400" /> &nbsp; &nbsp;
 <img src="img/slides-05/hd-wallet.png" width="400" />
 
- * Ever address has a path: <em>m/0'/0</em>
+ * Every address has a path: <code>m/0'/0</code>
+<!-- .slide: class="master01" -->
+
+<!-- slide -->
+### BIP32 Extended Keys
+ * Branches of the tree
+ * Extended Private Key: <code>xprv...</code>
+   * Can spend entire branch
+ * Extended Public Key: <code>xpub...</code>
+   * Can generate addresses for branch
+ 
 <!-- .slide: class="master01" -->
 
 <!-- slide -->
 ### BIP39
- * Mnemonic code for generating deterministic keys 
+ * Mnemonic code for generating deterministic keys
+ * 2048 pre-defined words, 11 bits per word
  * Before:
    <pre><code>183a4aac1355fbdf0f480a6b1714ba7943f315b3d7503b6540542a762404e094
 8211f9ca0cf7abc5f084bd0085c9482ed891c29d9a475bf0e5f9e3ccb09a62de</code></pre>
