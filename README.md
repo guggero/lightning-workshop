@@ -40,7 +40,7 @@ So please choose one, preferably based on your skill.
 
 Once you have installed the tools mentioned above continue here:
 * Go to [https://github.com/LN-Zap/zap-desktop](https://github.com/LN-Zap/zap-desktop) and follow the installation instructions
-* The binaries for `lnd` can be downloaded here: [LND binary releases](https://github.com/guggero/lightning-workshop/releases)
+* The binaries for `lnd` can be downloaded here: [LND binary releases](https://github.com/lightningnetwork/lnd/releases/tag/v0.5-beta)
 * Start the GUI with `npm run dev`
 * Go to your wallet and display your wallet's address (should start with 2... for Testnet)
 * Go to [testnet.manu.backend.hamburg/faucet](https://testnet.manu.backend.hamburg/faucet) and send yourself some Testnet Bitcoins
@@ -48,7 +48,7 @@ Once you have installed the tools mentioned above continue here:
 ## Option 3a (advanced, CLI): Command line
 
 Create a directory where the data for the `lnd` process will be stored. For the example we will assume that the directory is `/tmp/lnd`.
-Also add the binaries from [LND binary releases](https://github.com/guggero/lightning-workshop/releases) and add them to the PATH environment variable.
+Also add the binaries from [LND binary releases](https://github.com/lightningnetwork/lnd/releases/tag/v0.5-beta) and add them to the PATH environment variable.
 
 Open one command line window and run the following command:
 
