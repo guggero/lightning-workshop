@@ -9,6 +9,7 @@ Links to slides:
 * [Bitcoin Cryptography with JavaScript: Talk at the BernerJS meetup on 2018-06-26](slides-04-berner-js.html)
 * [Bitcoin Addresses: Talk at the meetup at Tesla on 2018-07-10](slides-05-tesla.html)
 * [Trading Basics: Talk at the Impact Hub on 2018-02-07 by Jan Gobeli](slides_trading_basics_jan_gobeli.pptx)
+* [Macaroons: What are they, how do they work and how are they used in LND?](slides-06-macaroons.html)
 
 
 # Task 1: Install Lightning Network wallet
