@@ -463,3 +463,14 @@ li pre code.hljs {
 .reveal li pre {
   box-shadow: none;
 }
+
+code.inline {
+  display: inline-block;
+}
+
+.container{
+  display: flex;
+}
+.col{
+  flex: 1;
+}

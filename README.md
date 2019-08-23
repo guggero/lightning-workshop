@@ -10,6 +10,7 @@ Links to slides:
 * [Bitcoin Addresses: Talk at the meetup at Tesla on 2018-07-10](slides-05-tesla.html)
 * [Trading Basics: Talk at the Impact Hub on 2018-02-07 by Jan Gobeli](slides_trading_basics_jan_gobeli.pptx)
 * [Macaroons: What are they, how do they work and how are they used in LND?](slides-06-macaroons.html)
+* [Elliptische Kurven: Was ist das und warum kann man damit Crypto machen? (in German)](slides-07-elliptische-kurven.html)
 
 
 # Task 1: Install Lightning Network wallet

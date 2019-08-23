@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+  <title>Elliptische Kurven</title>
+
+  <link rel="stylesheet" href="reveal.js-3.8.0/css/reset.css">
+  <link rel="stylesheet" href="reveal.js-3.8.0/css/reveal.css">
+  <link rel="stylesheet" href="reveal.js-3.6.0/css/theme/puzzle.css">
+
+  <!-- Theme used for syntax highlighting of code -->
+  <link rel="stylesheet" href="reveal.js-3.6.0/lib/css/zenburn.css">
+
+  <!-- Printing and PDF exports -->
+  <script>
+      var link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match(/print-pdf/gi) ? 'reveal.js-3.8.0/css/print/pdf.css' : 'reveal.js-3.8.0/css/print/paper.css';
+      document.getElementsByTagName('head')[0].appendChild(link);
+  </script>
+  <!--[if lt IE 9]>
+  <script src="reveal.js-3.8.0/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+
+<div class="reveal">
+  <div class="slides">
+    <section data-markdown="slides-07-elliptische-kurven.md"
+             data-separator="<!-- section -->"
+             data-separator-vertical="<!-- slide -->"
+             data-charset="utf-8">
+    </section>
+  </div>
+</div>
+
+<script src="reveal.js-3.8.0/js/reveal.js"></script>
+
+<script>
+    // More info about config & dependencies:
+    // - https://github.com/hakimel/reveal.js#configuration
+    // - https://github.com/hakimel/reveal.js#dependencies
+    Reveal.initialize({
+        math: {
+            mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+            config: 'TeX-AMS_HTML-full'
+        },
+        dependencies: [
+            {src: 'reveal.js-3.8.0/plugin/markdown/marked.js'},
+            {src: 'reveal.js-3.8.0/plugin/markdown/markdown.js'},
+            {src: 'reveal.js-3.8.0/plugin/notes/notes.js', async: true},
+            {
+                src: 'reveal.js-3.8.0/plugin/highlight/highlight.js', async: true, callback: function () {
+                    hljs.initHighlightingOnLoad();
+                }
+            },
+            { src: 'reveal.js-3.8.0/plugin/math/math.js', async: true }
+        ],
+        history: true,
+        slideNumber: true,
+    });
+</script>
+</body>
+</html>
