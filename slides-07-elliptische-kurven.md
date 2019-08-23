@@ -8,7 +8,10 @@ Oliver Gugger, Puzzle ITC<br/><br/>
 [@gugol](https://twitter.com/gugol)<br/>
 [github.com/guggero](https://github.com/guggero)
 <br/><br/>
-Folien auf [guggero.github.io](https://guggero.github.io)
+Folien auf [guggero.github.io](https://guggero.github.io)<br/><br/>
+<small>Folien basierend auf den Vorlesungen von Christoph Paar:
+<a href="https://www.youtube.com/channel/UC1usFRN4LCMcfIV7UjHNuQg/videos">https://www.youtube.com/channel/UC1usFRN4LCMcfIV7UjHNuQg/videos</a>
+</small>
 
 <!-- .slide: class="master02" -->
 
@@ -23,6 +26,7 @@ Folien auf [guggero.github.io](https://guggero.github.io)
 * Kryptografie mit Elliptischen Kurven
 * Rechenbeispiel
 * Anwendungen
+
 <!-- .slide: class="master03" -->
 
 
@@ -122,7 +126,7 @@ Ein Körper ist ein Tripel `(K, +, *)` aus Menge `K` und Operationen `+` und `*`
 * Die Distributivgesetze
   <code class="inline">$$ a * (b + c) = a * b + a * c $$</code> <br/>und</br>
   <code class="inline">$$ (a + b) * c = a * c + b * c $$</code> <br/>
-  sind für alle <code class="inline">$$ a,b,c ϵ R $$</code> erfüllt.
+  sind für alle <code class="inline">$$ a,b,c ϵ K $$</code> erfüllt.
 
 <!-- .slide: class="master05" -->
 
@@ -150,7 +154,7 @@ Ein Körper ist ein Tripel `(K, +, *)` aus Menge `K` und Operationen `+` und `*`
 * Rechnen mit Kurven im Feld <code class="inline">$$ \mathbb{Z}^*_p \bmod n $$</code>
 * Keine direkte geometrische Darstellung mehr, aber Regeln bleiben bestehen
 * Generatorpunkt `G`, privater Schlüssel `k`
-* Öffentlicher Schlüssel ist Punkt <code class="inline">$$ k * G $$</code> oder auch <code class="inline">$$ G^k $$</code>
+* Öffentlicher Schlüssel ist Punkt `k * G` oder auch <code class="inline">$$ G^k $$</code>
 
 <!-- .slide: class="master03" -->
 
@@ -161,6 +165,37 @@ Ein Körper ist ein Tripel `(K, +, *)` aus Menge `K` und Operationen `+` und `*`
 * Discrete Logarithm Problem (DLP)
 * `k * G` ist einfach, dank `double-and-add`-Algorithmus
 * Umgekehrte Richtung ist schwer
+* Primzahlfelder angreifbar über "Index Calculus"-Methode
+* "Gute" elliptische Kurven nicht angreifbar, deshalb viel kleinere Zahlen (256bit ECC ~= 3072bit RSA)
+
+<!-- .slide: class="master03" -->
+
+
+<!-- slide -->
+## Kryptografie
+
+* NIST hat SEC-Kurven definiert und publiziert
+* Beispiel: `secp256k1` für 256bit ECC (Bitcoin)
+
+<img src="img/slides-07/secp256k1.png" width="40%" />
+
+<!-- .slide: class="master03" -->
+
+
+<!-- slide -->
+## Rechenbeispiel
+
+Live-Demo mit <a href="https://guggero.github.io/cryptography-toolkit">guggero.github.io/cryptography-toolkit</a>
+<!-- .slide: class="master03" -->
+
+
+<!-- slide -->
+## Anwendungen
+
+* Diffie-Hellman (Schlüsselaustausch)
+* ECDSA (Signaturen)
+* Schnorr (Signaturen)
+* Verschlüsselung möglich (ECES) aber selten verwendet
 
 <!-- .slide: class="master03" -->
 
